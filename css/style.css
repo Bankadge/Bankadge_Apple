@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  max-width: 1130px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 15px;
+}
+.df {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ul__list {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.nav__list_link a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+
+  color: #ffffff;
+}
+.bg {
+  background: #282828;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.bgblack {
+  background: url(../img/Header\ \(1\).png);
+  height: 700px;
+}
+.header__title {
+  font-family: "Prosto One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 75px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 200px;
+  padding-bottom: 38px;
+}
+.header__text {
+  display: flex;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.pa {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #171718;
+}
+.a {
+  margin: 0 auto;
+  gap: 40px;
+  display: flex;
+  padding: 14px;
+  background: #ffffff;
+  border-radius: 10px;
+  width: 280px;
+  height: 50px;
+}
+.main {
+  background: black;
+  
+}
+.block__p1 {
+  padding-top: 130px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+  width: 538px;
+}
+.block1 {
+  display: flex;
+  gap: 30px;
+}
+.block__p2 {
+  
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+  width: 538px;
+}
+.block2 {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.block3 {
+  display: flex;
+}
+.ab {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.ab::after {
+  content: "";
+  width: 61px;
+  height: 1px;
+  background: #c4c4c4;
+}
+.ab::before {
+  content: "";
+  width: 61px;
+  height: 1px;
+  background: #c4c4c4;
+}
+.block3 {
+  margin-top: 40px;
+}
+.block__p3 {
+  gap: 3px;
+
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* text-align: right; */
+  width: 333px;
+  color: #ffffff;
+}
+.box {
+  margin-bottom: 55px;
+  background: #ffffff;
+  border-radius: 6px;
+  max-width: 255px;
+  padding: 20px;
+  text-align: center;
+}
+.h4 {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.box__p {
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.box__p_view {
+  margin: 0 auto;
+  padding-top: 5px;
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #151515;
+  transition: 0.4s;
+}
+.box__p_view:hover {
+  color: aqua;
+  background: purple;
+}
+.df1 {
+  padding-top: 79px;
+  display: flex;
+  padding-bottom: 25px;
+}
+.footer {
+  background: #282828;
+  box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+}
+.df2 {
+  display: flex;
+  justify-content: space-between;
+}
+.ul__list1 {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+}
+.nav__list_link1 a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #ffffff;
+}
+.footer {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.df5 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}

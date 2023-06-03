@@ -1,0 +1,84 @@
+@media(max-width: 1200px) {
+    .df5 {
+        
+    } 
+    .block1 {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .block1 img{
+        max-width: 100%;
+    }
+    .block2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .block3 {
+        margin-top: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .block3 img{
+        max-width: 100%;
+    }
+    .block__p3 {
+        text-align: center;
+    }
+    .df {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .box {
+        width: 200px;
+    }
+}
+
+@media(max-width: 992px) {
+    .df5 {
+        flex-wrap: wrap;
+    }
+    .block__p1 {
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .block__p2 {
+        font-size: 17px;
+        font-weight: bold;
+        max-width: 100%;
+    }
+    .block__p3 {
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+}
+
+@media(max-width: 768px) {
+    .block__p3 {
+        font-size: 15px;
+        font-weight: 20px;
+    }
+}
+
+@media(max-width: 576px) {
+    .df2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .df5{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 375px) {}
+
+@media(max-width: 320px) {}
