@@ -1,7 +1,7 @@
 @media(max-width: 1200px) {
-    .df5 {
+    .h1 {
         
-    } 
+    }
     .block1 {
         flex-wrap: wrap;
         align-items: center;
@@ -31,6 +31,7 @@
     }
     .block__p3 {
         text-align: center;
+        width: 100%;
     }
     .df {
         flex-wrap: wrap;
@@ -66,6 +67,12 @@
         font-size: 15px;
         font-weight: 20px;
     }
+    .header__title {
+        font-size: 33px;
+    }
+    .bgblack {
+        height: 550px;
+    }
 }
 
 @media(max-width: 576px) {
@@ -79,6 +86,14 @@
     }
 }
 
-@media(max-width: 375px) {}
+@media(max-width: 375px) {
+    .ul__list{
+        flex-direction: column;
+    }
+    .df {
+        flex-direction: column;
+        gap: 17px;
+    }
+}
 
 @media(max-width: 320px) {}
